@@ -55,12 +55,12 @@ Functions include:
 
 # Compatibility
 
-This branch (`atak-5.8`) builds the plugin for:
+`main` builds the plugin for:
 
 - ATAK CIV 5.8.x (built against the ATAK-CIV 5.8.0.10 SDK)
 
-For ATAK CIV 5.6.x, use the `main` branch. A plugin loads only in the ATAK
-release it was built for.
+For ATAK CIV 5.6.x, use the `atak-5.6` branch. A plugin loads only in the
+ATAK release it was built for.
 
 The plugin was developed and tested using:
 
@@ -72,7 +72,7 @@ ATAK 5.7 is **not currently supported**.
 
 # Requirements
 
-- ATAK CIV 5.8.x (this branch) or 5.6.x (`main`)
+- ATAK CIV 5.8.x (`main`) or 5.6.x (`atak-5.6`)
 - Enhanced NA7Q APRSdroid fork
 - Android device
 - Working APRSdroid configuration
