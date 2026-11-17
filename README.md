@@ -55,9 +55,12 @@ Functions include:
 
 # Compatibility
 
-This plugin is currently supported on:
+This branch (`atak-5.8`) builds the plugin for:
 
-- ATAK CIV 5.6.x
+- ATAK CIV 5.8.x (built against the ATAK-CIV 5.8.0.10 SDK)
+
+For ATAK CIV 5.6.x, use the `main` branch. A plugin loads only in the ATAK
+release it was built for.
 
 The plugin was developed and tested using:
 
@@ -69,7 +72,7 @@ ATAK 5.7 is **not currently supported**.
 
 # Requirements
 
-- ATAK CIV 5.6.x
+- ATAK CIV 5.8.x (this branch) or 5.6.x (`main`)
 - Enhanced NA7Q APRSdroid fork
 - Android device
 - Working APRSdroid configuration
@@ -147,7 +150,10 @@ the local APRS callsign so incoming messages can be filtered correctly.
 
 # Known Limitations
 
-- Tested with ATAK CIV 5.6.x
+- Tested with ATAK CIV 5.6.x; the 5.8 build compiles unchanged against the
+  5.8.0.10 SDK (three deprecation warnings, all still supported in 5.8:
+  `AtakMapView.getMapController()`, `Resources.getDrawable(int)`,
+  `Intent.getParcelableExtra(String)`)
 - Developed for the enhanced NA7Q fork of APRSdroid
 - APRS overlay symbols are not currently supported
 - Some APRS Objects and Items require additional field testing
