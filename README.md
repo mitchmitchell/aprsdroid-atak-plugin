@@ -150,8 +150,10 @@ the local APRS callsign so incoming messages can be filtered correctly.
 
 # Known Limitations
 
-- Tested with ATAK CIV 5.6.x; the 5.8 build compiles unchanged against the
-  5.8.0.10 SDK (three deprecation warnings, all still supported in 5.8:
+- Tested with ATAK CIV 5.6.x (`atak-5.6`) and with the developer build of
+  ATAK CIV 5.8.0.10 (`main`: stations and two-way messaging). The 5.8 build
+  compiles unchanged against the 5.8.0.10 SDK (three deprecation warnings,
+  all still supported in 5.8:
   `AtakMapView.getMapController()`, `Resources.getDrawable(int)`,
   `Intent.getParcelableExtra(String)`)
 - Developed for the enhanced NA7Q fork of APRSdroid
